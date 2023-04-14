@@ -7,6 +7,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/139d52fbf6.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="./css/style.css">
     <title>Login - Registration</title>
 </head>
@@ -22,6 +23,44 @@
             <button class="btnLogin-popup">Login</button>
         </nav>
     </header>
+
+    <div class="wrapper">
+        <div class="form-box login">
+            <h2>Login</h2>
+            <form action="#">
+                <div class="input-box">
+                    <span class="icon">
+                        <i class="fa-solid fa-envelope"></i>
+                    </span>
+                    <input type="email" id="email" required>
+                    <label for="email">Email</label>
+                </div>
+
+                <div class="input-box">
+                    <span class="icon">
+                        <i class="fa-solid fa-lock"></i>
+                    </span>
+                    <input type="password" id="password" required>
+                    <label for="password">Password</label>
+                </div>
+                <div class="remember-forgot">
+                    <label for="checkbox">
+                        <input type="checkbox" id="checkbox">
+                        Remember me
+                    </label>
+                    <a href="#">Forgot password?</a>
+                </div>
+                <button class="btn" type="submit">Login</button>
+                <div class="login-register">
+                    <p>Don't have an account?
+                        <a class="register-link" href="#">
+                            Register
+                        </a>
+                    </p>
+                </div>
+            </form>
+        </div>
+    </div>
 
 </body>
 </html>
