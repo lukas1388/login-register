@@ -28,7 +28,7 @@
         <span class="icon-close">
             <i class="fa-solid fa-xmark"></i>
         </span>
-        
+
         <div class="form-box login">
             <h2>Login</h2>
             <form action="#">
@@ -59,6 +59,47 @@
                     <p>Don't have an account?
                         <a class="register-link" href="#">
                             Register
+                        </a>
+                    </p>
+                </div>
+            </form>
+        </div>
+
+        <div class="form-box register">
+            <h2>Registration</h2>
+            <form action="#">
+                <div class="input-box">
+                    <span class="icon">
+                        <i class="fa-solid fa-user"></i>
+                    </span>
+                    <input type="text" id="username" required>
+                    <label for="username">Username</label>
+                </div>
+                <div class="input-box">
+                    <span class="icon">
+                        <i class="fa-solid fa-envelope"></i>
+                    </span>
+                    <input type="email" id="email" required>
+                    <label for="email">Email</label>
+                </div>
+                <div class="input-box">
+                    <span class="icon">
+                        <i class="fa-solid fa-lock"></i>
+                    </span>
+                    <input type="password" id="password" required>
+                    <label for="password">Password</label>
+                </div>
+                <div class="remember-forgot">
+                    <label for="checkbox">
+                        <input type="checkbox" id="checkbox">
+                        I agree to the terms & conditions
+                    </label>
+                </div>
+                <button class="btn" type="submit">Register</button>
+                <div class="login-register">
+                    <p>Already have an account?
+                        <a class="login-link" href="#">
+                            Login
                         </a>
                     </p>
                 </div>

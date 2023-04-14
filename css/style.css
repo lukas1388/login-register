@@ -88,7 +88,7 @@ header {
 .wrapper {
     position: relative;
     width: 400px;
-    height: 440px;
+    height: 500px;
     color: #ecf0f1;
     border: 2px solid rgba(255, 255, 255, .5);
     background-color: transparent;
@@ -103,6 +103,10 @@ header {
 .form-box {
     width: 100%;
     padding: 40px;
+}
+
+.form-box.login {
+    display: none;
 }
 
 .icon-close {
